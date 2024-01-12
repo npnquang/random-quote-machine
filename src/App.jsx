@@ -2,6 +2,7 @@ import './App.css'
 import { useState } from 'react'
 import Text from "./components/Text.jsx"
 import Author from './components/Author.jsx'
+import NewQuoteButton from './components/NewQuoteButton.jsx'
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <div id="quote-box">
       <Text text={"Hello"} />
       <Author author={"ME"}/>
-      {/* <NewQuoteButton */}
+      <NewQuoteButton />
       {/* <TweetQuoteButton /> */}
     </div>
   )
