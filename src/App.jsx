@@ -23,8 +23,11 @@ function App() {
     <div id="quote-box">
       <Text text={textDisplay} />
       <Author author={authorDisplay}/>
-      <NewQuoteButton getQuote={getQuote} changeAuthor={setAuthor} changeText={setText}/>
-      <TweetQuoteButton text={textDisplay} author={authorDisplay}/>
+      <div id="buttons">
+        <NewQuoteButton getQuote={getQuote} changeAuthor={setAuthor} changeText={setText}/>
+        <TweetQuoteButton text={textDisplay} author={authorDisplay}/>
+      </div>
+      
     </div>
   )
 }
