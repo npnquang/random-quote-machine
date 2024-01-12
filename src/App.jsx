@@ -4,7 +4,7 @@ import Text from "./components/Text.jsx"
 import Author from './components/Author.jsx'
 import NewQuoteButton from './components/NewQuoteButton.jsx'
 import quotes from './components/quotes.js'
-import TweetQuoteButton from './components/TweetQuoteButton.jsx'
+import TweetQuoteButton from './components/TweetQuoteAnchor.jsx'
 
 function App() {
   

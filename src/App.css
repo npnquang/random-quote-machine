@@ -24,11 +24,11 @@
   background-color: blue;
 }
 
-#tweet-quote a {
+#tweet-quote {
   color: white;
 }
 
-#tweet-quote a:hover {
+#tweet-quote:hover {
   color: blue;
 }
 
