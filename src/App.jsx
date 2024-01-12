@@ -4,6 +4,7 @@ import Text from "./components/Text.jsx"
 import Author from './components/Author.jsx'
 import NewQuoteButton from './components/NewQuoteButton.jsx'
 import quotes from './components/quotes.js'
+import TweetQuoteButton from './components/TweetQuoteButton.jsx'
 
 function App() {
   
@@ -23,7 +24,7 @@ function App() {
       <Text text={textDisplay} />
       <Author author={authorDisplay}/>
       <NewQuoteButton getQuote={getQuote} changeAuthor={setAuthor} changeText={setText}/>
-      {/* <TweetQuoteButton /> */}
+      <TweetQuoteButton text={textDisplay} author={authorDisplay}/>
     </div>
   )
 }
